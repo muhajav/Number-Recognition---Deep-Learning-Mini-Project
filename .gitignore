@@ -1,3 +1,9 @@
 .ipynb_checkpoints/
 .DS_Store
 "Group Mini Project.pdf"
+
+# local virtualenv and trained model files
+.venv/
+venv/
+*.keras
+*.h5

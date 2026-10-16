@@ -1,5 +1,24 @@
 # Plan: Handwritten Digit Recognition on MNIST
 
+## Updates in this version
+Based on the course slides: Afiahayati, *Introduction to Deep Learning* (UGM).
+- Slide CNN (16→32 filters, Dense 64) used as the core model
+- Size-matched ANN baseline for a fair comparison
+- Wider CNN with two convolutions per block
+- BatchNorm + Dropout step
+- Data augmentation step
+- 3-model ensemble (new E6)
+- Section showing what convolution and pooling do
+- Learned filters and feature maps
+- Tuning sweep with noise estimate
+- Stratified 5-fold cross-validation
+- Deeper evaluation: confusion pairs, confidence, coverage
+- Save, reload and predict a single digit
+- Appendix with slide-by-slide presentation guide
+- Slide citations and reference list
+
+---
+
 Everything lives in a single notebook: `mnist_experiments.ipynb`.
 
 ## 1. Problem
